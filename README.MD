@@ -181,7 +181,31 @@ git push origin --delete nome-da-branch
 
 ---
 
-## 15. Ignorando Arquivos no Git
+## 15. Criando um Release no GitHub
+
+Releases permitem versionar um software e fornecer versões específicas do código.
+
+1. Acesse seu repositório no GitHub.
+2. Clique em **Releases** no menu lateral.
+3. Clique em **Draft a new release**.
+4. Escolha a tag (exemplo: `v1.0.0`) e nomeie o release.
+5. Adicione uma descrição sobre as mudanças.
+6. Clique em **Publish release**.
+
+---
+
+## 16. Criando um Package no GitHub
+
+Se deseja publicar pacotes para reutilização, siga os passos:
+
+1. Acesse seu repositório no GitHub.
+2. No menu lateral, clique em **Packages**.
+3. Siga as instruções para publicar um pacote utilizando ferramentas como `npm`, `Docker`, `Maven` ou `NuGet`.
+4. Após a publicação, o pacote estará disponível para instalação e uso em outros projetos.
+
+---
+
+## 17. Ignorando Arquivos no Git
 
 Se quiser evitar que determinados arquivos sejam versionados, crie um arquivo `.gitignore` e adicione os arquivos ou pastas que deseja ignorar. Exemplo:
 
@@ -192,7 +216,3 @@ Se quiser evitar que determinados arquivos sejam versionados, crie um arquivo `.
 ```
 
 ---
-
-## Conclusão
-
-Agora você conhece os principais comandos do Git para subir um projeto no GitHub e gerenciar o versionamento do seu código. Pratique regularmente para se familiarizar com o fluxo de trabalho!
